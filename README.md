@@ -22,11 +22,16 @@ Déjà installés :
 
 **Backend dans /backend**
 
+- Installer les dépendances `npm install`
 - Jest `npm test`
   - Vous pouvez écrire les tests unitaires, d'intégration et end-to-end avec jest. Pour les tests end-to-end, utilisez `fetch()` avec Jest
 - Express `npm start`
 - ESlint, Prettier
 - Babel, Babel-node, pour utiliser une syntaxe moderne sans soucis. `npx babel-node fichier.js` pour exécuter un fichier particulier avec babel.
+
+Recommandations :
+
+- Pour communiquer entre le backend et le frontend, utilisez [react-query](https://tanstack.com/query/latest/docs/react/overview#enough-talk-show-me-some-code-already)
 
 ## Fonctionnalités de base
 
